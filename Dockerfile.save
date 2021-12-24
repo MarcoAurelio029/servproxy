@@ -1,0 +1,9 @@
+xxxFROM gcc:latest 
+
+COPY . /usr/src/c_test
+
+WORKDIR /usr/src/c_test
+
+RUN gcc main.c -o main
+
+#CMD ["./main"]

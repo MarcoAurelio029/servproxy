@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1624712314 source:/home/marco/Documentos/Trabalho de Redes/serv.proxy/servproxy/main.c
+	<stdio.h>
+	<stdlib.h>
+	"serv_proxy.h"
+
+1624712314 /home/marco/Documentos/Trabalho de Redes/serv.proxy/servproxy/serv_proxy.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<string.h>
+	<arpa/inet.h>
+	<errno.h>
+	<signal.h>
+	<sys/wait.h>
+	"printmesages.h"
+	"showerror.h"
+	"dnsresolve.h"
+
+1624712314 /home/marco/Documentos/Trabalho de Redes/serv.proxy/servproxy/printmesages.h
+
+1624712314 /home/marco/Documentos/Trabalho de Redes/serv.proxy/servproxy/showerror.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<string.h>
+	<netdb.h>
+	<errno.h>
+	"showerror.h"
+
+1624712314 /home/marco/Documentos/Trabalho de Redes/serv.proxy/servproxy/dnsresolve.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<string.h>
+	<arpa/inet.h>
+	<errno.h>
+
+1624712314 source:/home/marco/Documentos/Trabalho de Redes/serv.proxy/servproxy/dnsresolve.c
+	"dnsresolve.h"
+
+1624842658 source:/home/marco/Documentos/Trabalho de Redes/serv.proxy/servproxy/http_functions.c
+	"http_functions.h"
+
+1624884442 /home/marco/Documentos/Trabalho de Redes/serv.proxy/servproxy/http_functions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<time.h>
+	<sys/stat.h>
+	<sys/types.h>
+
+1624841245 source:/home/marco/Documentos/Trabalho de Redes/serv.proxy/servproxy/serv_proxy.c
+	"serv_proxy.h"
+	"http_functions.h"
+
+1624712314 source:/home/marco/Documentos/Trabalho de Redes/serv.proxy/servproxy/showerror.c
+	"showerror.h"
+
