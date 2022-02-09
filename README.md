@@ -1,4 +1,2 @@
 # servproxy
-Servidor proxy simples com cache interno que roda no localhost.
-Este cache é definido em em segundos e é passado para o programa por argumentoi de linha de comando.
-O site acessado através deste proxy terá um HTML injetado informando a validade e atualizaçõa de cache.
+A simple proxy server with internal cache that runs in localhost. This cache has a timeout, whitch is passed to it by parameters, in seconds. Any site access throught this proxy will take a injected code on it, that contais informations refers to a validate of the cache.
